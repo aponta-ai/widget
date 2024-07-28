@@ -1,0 +1,1 @@
+function n(){import("https://app.aponta.ai/widget/main.js")}function a(){import("https://app.aponta.ai/widget/player.js")}function r(){const t=new URL(window.location.href),i=t.searchParams.get("live_playbook_token"),o=t.searchParams.get("live_playbook_id");if(i)return n();if(o)return a()}r();
